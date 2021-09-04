@@ -1,3 +1,15 @@
+//charAt()  and concat()
+
+let wordMotivation = "  Javascript language is the best the than Java  ";
+let testingCharAt = wordMotivation.charAt(10);
+
+let fullName = " Rosada";
+let testingConcat = wordMotivation.concat(fullName, " Agua");
+
+console.log(testingConcat);
+
+console.log(testingCharAt);
+
 //split() and trim()
 let anyword = "     Javascript language is the best the than Java      ";
 
@@ -5,9 +17,9 @@ let testSplit = anyword.split("");
 
 let testTrim = anyword.trim();
 
-console.log(testSplit);
+/* console.log(testSplit);
 
-console.log(testTrim);
+console.log(testTrim); */
 
 //replace and slice
 
@@ -28,8 +40,8 @@ let testingSlice = university.slice(0, tamanho);
 /* 
 console.log(testingSlice); */
 
-/* const family = ["luis", "filipe", "vasco", "evanilson"];
+const family = ["luis", "filipe", "vasco", "evanilson"];
 
 const search = family.lastIndexOf("evanilson");
-
+/* 
 console.log(search); */
