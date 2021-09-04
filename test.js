@@ -1,3 +1,16 @@
+// include , toUpperCase , toLowerCase
+
+let palavras = "GOD is good Javascript language is THE best the than Java  ";
+
+let searchPalavras = palavras.includes("agua");
+let touppercase = palavras.toUpperCase();
+let tolowecase = palavras.toLowerCase();
+console.log(searchPalavras);
+
+console.log(touppercase);
+
+console.log(tolowecase);
+
 //charAt()  and concat()
 
 let wordMotivation = "  Javascript language is the best the than Java  ";
@@ -6,10 +19,10 @@ let testingCharAt = wordMotivation.charAt(10);
 let fullName = " Rosada";
 let testingConcat = wordMotivation.concat(fullName, " Agua");
 
-console.log(testingConcat);
+/* console.log(testingConcat);
 
 console.log(testingCharAt);
-
+ */
 //split() and trim()
 let anyword = "     Javascript language is the best the than Java      ";
 
